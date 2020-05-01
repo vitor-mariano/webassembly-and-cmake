@@ -1,0 +1,2 @@
+#define WebAssemblyAndCMake_VERSION_MAJOR @WebAssemblyAndCMake_VERSION_MAJOR@
+#define WebAssemblyAndCMake_VERSION_MINOR @WebAssemblyAndCMake_VERSION_MINOR@

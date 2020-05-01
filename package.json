@@ -1,0 +1,17 @@
+{
+  "name": "webassembly-and-cmake",
+  "version": "0.1.0",
+  "main": "src/main.ts",
+  "repository": "https://github.com/vitor-mariano/webassembly-and-cmake",
+  "author": "Vítor Mariano <vmatheus.mariano@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "sh build.sh",
+    "start": "yarn parcel --hmr-port 1231 src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
+}

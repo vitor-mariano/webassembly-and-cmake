@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+    build: .
+    command: yarn start
+    volumes:
+      - .:/home/node/app
+    ports:
+      - 1234:1234
+      - 1231:1231
